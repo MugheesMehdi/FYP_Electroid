@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\STUDY\FYP_Electroid\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="D:\STUDY\FYP_Electroid\MyApplication\app\build\intermediates\pre-dexed\debug\classes-e1dc861eb24850f68ba5a1f37a1cd6b907a3b2a3.jar" />
+    </item>
+    <item
+        jar="D:\STUDY\FYP_Electroid\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="D:\STUDY\FYP_Electroid\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-c4b15d77068e01c709a8527b90e61edf2d28a60f.jar" />
+    </item>
+    <item
+        jar="D:\STUDY\FYP_Electroid\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="D:\STUDY\FYP_Electroid\MyApplication\app\build\intermediates\pre-dexed\debug\classes-fb6ff6e2049de36217858d5c8411a09854a95aa7.jar" />
+    </item>
+    <item
+        jar="D:\STUDY\UNI mATERIAL\Sem 6\MOBILE COMPUTING\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="D:\STUDY\FYP_Electroid\MyApplication\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-42c23602de7bef929527ede541dcff5f79d0af6b.jar" />
+    </item>
+
+</items>

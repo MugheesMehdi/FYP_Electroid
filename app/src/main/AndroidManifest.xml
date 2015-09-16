@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mateen.electroid" >
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS_" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AllDevices"
+            android:label="@string/title_activity_all_devices"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateen.electroid.MainActivity" />
+        </activity>
+
+        <receiver android:name=".SmsReceive" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Electroid"
+            android:label="@string/title_activity_electroid" >
+        </activity>
+        <activity
+            android:name=".AdminPanel"
+            android:label="@string/title_activity_admin_panel" >
+        </activity>
+        <activity
+            android:name=".ViewAllUser"
+            android:label="@string/title_activity_view_all_user" >
+        </activity>
+        <activity
+            android:name=".Users"
+            android:label="@string/title_activity_users"
+            android:parentActivityName=".AdminPanel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateen.electroid.AdminPanel" />
+        </activity>
+        <activity
+            android:name=".Room"
+            android:label="@string/title_activity_room"
+            android:parentActivityName=".AdminPanel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateen.electroid.AdminPanel" />
+        </activity>
+        <activity
+            android:name=".Device"
+            android:label="@string/title_activity_device"
+            android:parentActivityName=".Room" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mateen.electroid.Room" />
+        </activity>
+        <activity
+            android:name=".dummy"
+            android:label="@string/title_activity_dummy"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        </activity>
+    </application>
+
+</manifest>

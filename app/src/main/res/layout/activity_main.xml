@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+
+    android:background="#181a1c"
+   >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+     >
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="220dp"
+         android:src="@drawable/electroid"/>
+
+    <LinearLayout
+         android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:id="@+id/l_login"
+       >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+
+     >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_username"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/us"
+        android:textColorHint="#ffffff"
+        android:gravity="left"
+        android:hint="  Username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_password"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
+        android:gravity="left"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:textColorHint="#ffffff"
+        android:hint="password"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/mess"
+        android:text="Log In"
+        android:onClick="click"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_shape" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
